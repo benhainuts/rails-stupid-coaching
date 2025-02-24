@@ -1,0 +1,13 @@
+<h1 class="mb-5">question 🚀</h1>
+
+<div class="w-50 ml-3 pl-3">
+<h2 class="">Ask your coach anything</h2>
+
+<form class="border border-secondary rounded-5" action="/answer" data-turbo="false" method="get">
+  <input type="text" name="question" placeholder="Ask your question">
+  <input class="btn btn-secondary" type="submit" value="Ask!">
+</form>
+
+<%# <p><%=params[:question].answer%></p>
+<p><%=params[:question]%></p>
+</div>
